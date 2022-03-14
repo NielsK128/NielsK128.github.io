@@ -62,13 +62,18 @@ font-family: 'Helvetica', sans-serif;
 .diff_games {
     margin-top: 35px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    /*justify-content: space-between;*/
 }
 
 .diff_games .diff_games_item {
     width: 20%;
 }
 
+.diff_games .diff_games_item_right {
+    width: 20%;
+    margin-left: 20%;
+}
 .diff_games .diff_games_item_text {
     width: 120%;
     margin-left: -35px;
@@ -80,8 +85,17 @@ font-family: 'Helvetica', sans-serif;
     width: 100%;
     margin-bottom: 25px;
 }
+.diff_games .diff_games_item_right img {
+    width: 100%;
+    margin-bottom: 25px;
+}
 
 .diff_games .diff_games_item h3 {
+    color: #1269b1;
+    margin-bottom: 15px;
+}
+
+.diff_games .diff_games_item_right h3 {
     color: #1269b1;
     margin-bottom: 15px;
 }
