@@ -1,117 +1,173 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta name="viewport" content="with=device-width, initial-scale=1.0">
-        <title>VescitoPortfolio</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body style="background-color:rgb(48, 48, 48)">
-        <section class="header">
-        <img src="images/vc.png" alt="service_image" class ="imagecentered">
-        <h1 class="maintitle">Vescito</h1>
-        </section>
-        <section>
-        <div class="main_container" id="home">
-        
-            <div class="games" id="games">
-                <h1 class="projectstitle">Projects</h1>
-                <h2 class="title">Group Projects</h2> 
-                <div class="diff_games">
-                    <div class="diff_games_item">
-                        <img src="images/cbtd.png" alt="service_image">
-                        <div class="diff_games_item_text">
-                        <h3>Countryballs: Tower Defense</h3>
-                        <p>A unique tower defense game based on the countryball genre.</p>
-                        <p>Developed: 2020-2022; Released: 2020; Last Update: 2022</p>
-                        <p>Platform: Google Play Store; Gamejolt; Itch.io</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.PruzVesco.CountryballsTowerDefense&gl=DE" >Click here to check it out (Android)</a> <p></p> 
+<head>
+	<title>Portfolio website</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+	<!----hero Section start---->
+
+	<div class="hero" id ="home">
+		<nav>
+			<ul>
+				<li><a href="#home">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#projects">Projects</a></li>
+				<li><a href="#my-partners">Partners</a></li>
+				<li><a href="#contact-me">Contact Me</a></li>
+			</ul>
+		</nav>
+
+		<div class="content">
+			<h3>Hello, I'm</h3>
+			<h1>Niels <span>Kochert</span></h1>
+			<h3>Informally known as <span>Vescito</span></h3>
+			<h3><br />and I develop video games. Check it out!</h3>
+		</div>
+	</div>
+
+	<!----About section start---->
+	<section class="about" id ="about">
+		<div class="main">
+			<img src="images/VC.png">
+			<div class="about-text">
+				<h2><span>About Me</span></h2>
+				<p>Im a college student from Germany who started learning about game development back in 2018. I worked on and got to know most ends of the game development process as well as the publishing and profit-making. This includes working with programming languages like Java & C#, the UnityEngine and other software such as Blender. Lots of that work was done in groups with other people. I worked on and released several games, these are featured below.</p>
+			</div>
+		</div>
+	</section>
+
+	<!-----service section start----------->
+	<div class="service" id ="projects">
+		<div class="title">
+			<h2><span>My projects</span></h2>
+		</div>
+
+		<!--TEAM PROJECTS-->
+
+		<div class="title">
+			<h2>Group projects</h2>
+		</div>
+		<div class="box">
+			<div class="card">
+				<img class ="gamelogo"src="images/cbtd.png" alt="service_image">
+				<h5>Countryballs: Tower Defense</h5>
+				<div class="pra">
+					<p>A unique tower defense game based on the countryball genre. This was mainly a duo project with no clear roles<br />
+						Developed: 2020-2022; Released: 2020; Last Update: 2022<br />
+						Platform: Google Play Store; Gamejolt; Itch.io</p>
+						<a href="https://play.google.com/store/apps/details?id=com.PruzVesco.CountryballsTowerDefense&gl=DE" >Click here to check it out (Android)</a>
                         <a href="https://gamejolt.com/games/countryballstowerdefense/503327" >Click here to check it out (PC)</a> 
-                    </div>
-                    </div>
-                    <div class="diff_games_item_right">
-                        <img src="images/20cq.png" alt="service_image">
-                        <div class="diff_games_item_text">
-                        <h3>20th century quiz</h3>
-                        <p>A simple quiz game about the 20th century as a whole.</p>
-                        <p>Developed: 2019-2022; Released: 2022; Last Update: 2022</p>
-                        <p>Platform: Google Play Store</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.OblivityStudios.TwentiethCenturyQuiz" >Click here to check it out (Android)</a> <p></p> 
-                    </div>
-                    </div>
-                </div>
-                <h2 class="title">Solo Projects</h2> 
-                <div class="diff_games">
-                    <div class="diff_games_item">
-                        <img src="images/cbod.png" alt="service_image">
-                    <div class="diff_games_item_text">
-                        <h3>Countryballs: Odyssey</h3>
-                        <p>A simple platformer based on the countryball genre.</p>
-                        <p>Developed: 2019; Released: 2019; Last Update: 2019</p>
-                        <p>Platform: Gamejolt; Itch.io</p>
-                        <a href="https://gamejolt.com/games/cbodyssey/431851" >Click here to check it out (PC)</a> 
-                    </div> 
-                    </div>
-                    <div class="diff_games_item_right">
-                        <img src="images/cba.png" alt="service_image">
-                        <div class="diff_games_item_text">
-                        <h3>Crabloids Brief Adventure</h3>
-                        <p>A platformer which took inspriation from Super Mario Bros where the player controlls a crab.</p>
-                        <p>Developed: 2019; Released: 2019; Last Update: 2019</p>
-                        <p>Platform: Gamejolt; Itch.io</p>
-                        <a href="https://gamejolt.com/games/cba/440296" >Click here to check it out (PC)</a> 
-                    </div>
-                    </div>
-                    <div class="diff_games_item_right">
-                        <img src="images/cbbb.png" alt="service_image">
-                        <h3>Countryballs: Bouncy Business</h3>
-                        <div class="diff_games_item_text">
-                        <p>Use strategically placed platforms to prevent the countryballs from falling.</p>
-                        <p>Developed: 2020; Released: 2020; Last Update: 2020</p>
-                        <p>Platform: Google Play Store</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.Vesco.CountryballsBouncyBusiness&gl=DE" >Click here to check it out (Android)</a> 
-                    </div>
-                </div>
-                </div>
-                <div class="diff_games">
-                    <div class="diff_games_item">
-                        <img src="images/grenadesling.png" alt="service_image">
-                    <div class="diff_games_item_text">
-                        <h3>Grenade Sling</h3>
-                        <p>A simple hypercasual slingshot game where the player uses grenades to destroy rockets.</p>
-                        <p>Developed: 2022; Released: 2022; Last Update: 2022</p>
-                        <p>Platform: Google Play Store</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.VescitoProductions.GrenadeSling" >Click here to check it out (Android)</a> 
-                    </div> 
-                    </div>
-                    <div class="diff_games_item_right">
-                        <img src="images/cbgc.png" alt="service_image">
-                        <div class="diff_games_item_text">
-                        <h3>Countryballs: Galaxy Clash</h3>
-                        <p>A 2D arena shooter with aliens based on the countryballs genre.</p>
-                        <p>Developed: 2021-2022; Released: 2022; Last Update: 2022</p>
-                        <p>Platform: Google Play Store</p>
-                        <a href="https://play.google.com/store/apps/details?id=com.VescitoProductions.CountryballsGalaxyClash" >Click here to check it out (Android)</a> 
-                    </div> 
-                    </div>
-                </div>
-            </div>
-            </div>
-           
-            <div class="contactme" id="contactme">
-                <h1 class="contactmetitle">Contact me</h1>
-                    <div class="centered">
-                        <h1>Email: kochertn@gmail.com</h1>
-                    </div>
-                    <div class="centered">
-                       <h1>Discord: Vescito#2779</h1>
-                    </div>
-            </div>	
-        
-        
-            <div class="bottom">
-                <p>2022 Vescito</p>
-            </div>
-        </div>	
-    </section>
-    </body>
+				</div>
+			</div>
+			<div class="card">
+				<img class ="gamelogo"src="images/20cq.png" alt="service_image">
+				<h5>20th century quiz</h5>
+				<div class="pra">
+					<p>A simple general knowledge quiz game about the 20th century as a whole. I was active as developer and content designer<br />
+						Developed: 2020-2022; Released: 2020; Last Update: 2022<br />
+						Platform: Google Play Store<br />
+						<a href="https://play.google.com/store/apps/details?id=com.PruzVesco.CountryballsTowerDefense&gl=DE" >Click here to check it out (Android)</a> 
+                        <a href="https://gamejolt.com/games/countryballstowerdefense/503327" >Click here to check it out (PC)</a> 
+				</div>
+			</div>
+		</div>
+
+
+		<!--TEAM PROJECTS-->
+
+		<div class="title">
+			<h2>Solo projects</h2>
+		</div>
+		<div class="box">
+			<div class="card">
+				<img class ="gamelogo"src="images/cbod.png" alt="service_image">
+				<h5>Countryballs: Odyssey</h5>
+				<div class="pra">
+					<p>My first released game. A simple platformer based on the countryball genre.<br />
+					Developed: 2019; Released: 2019; Last Update: 2019<br />
+					Platform: Gamejolt; Itch.io</p>
+					<a href="https://gamejolt.com/games/cbodyssey/431851" >Click here to check it out (PC)</a> 
+				</div>
+			</div>
+			<div class="card">
+				<img class ="gamelogo"src="images/cba.png" alt="service_image">
+				<h5>Crabloids Brief Adventure</h5>
+				<div class="pra">
+					<p>Another early game of mine. A platformer which took inspriation from Super Mario Bros where the player controlls a crab.<br />
+					Developed: 2019; Released: 2019; Last Update: 2019<br />
+					Platform: Gamejolt; Itch.io</p>
+					<a href="https://gamejolt.com/games/cba/440296" >Click here to check it out (PC)</a> 
+					</div>
+			</div>
+			<div class="card">
+				<img class ="gamelogo"src="images/cbbb.png" alt="service_image">
+				<h5>Countryballs: Bouncy Business</h5>
+				<div class="pra">
+					<p>My first solo phone game. Use strategically placed platforms to prevent the countryballs from falling.<br />
+					Developed: 2020; Released: 2020; Last Update: 2020<br />
+					Platform: Google Play Store</p>
+					<a href="https://play.google.com/store/apps/details?id=com.Vesco.CountryballsBouncyBusiness&gl=DE" >Click here to check it out (Android)</a> 
+				</div>
+			</div>
+		</div>
+		<div class="box">
+			<div class="card">
+				<img class ="gamelogo"src="images/cbgc.png" alt="service_image">
+				<h5>Countryballs: Brawl</h5>
+				<div class="pra">
+					<p>A 2D arena shooter with aliens based on the countryballs genre.<br />
+					Developed: 2021-2022; Released: 2022; Last Update: 2022<br />
+					Platform: Google Play Store</p>
+					<a href="https://play.google.com/store/apps/details?id=com.VescitoProductions.CountryballsGalaxyClash" >Click here to check it out (Android)</a> 
+					</div>
+			</div>
+			<div class="card">
+				<img class ="gamelogo"src="images/grenadesling.png" alt="service_image">
+				<h5>Grenade Sling</h5>
+				<div class="pra">
+					<p>A simple hypercasual slingshot game where the player uses grenades to destroy rockets.<br />
+						Developed: 2022; Released: 2022; Last Update: 2022<br />
+						Platform: Google Play Store<br />
+						<a href="https://play.google.com/store/apps/details?id=com.VescitoProductions.GrenadeSling" >Click here to check it out (Android)</a> 
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!------My partners------>
+	<div class="mypartners" id ="my-partners">
+		<h6><span>My partners</span></h6>
+		<div class="featurebox">
+			<div class="featurecard">
+				<img class="featurelogo" src="images/pruz.png" alt="service_image">
+				<h5>Pruz0</h5>
+				<a href="https://pruz0.github.io/" >Click here to check him out</a> 
+			</div>
+			<div class="featurecard">
+				<img class="featurelogo" src="images/geo.png" alt="service_image">
+				<h5>Geo</h5>
+			</div>
+		</div> 
+	</div>
+
+	<!--Contact me-->
+	<div class="contact-me" id ="contact-me">
+		<h3 class="centered"><span>Contact me</span></h3>
+		<h3><br />Mail: kochertn@gmail.com</h4>
+		<h3>Discord: Vescito#2779</h4>
+		
+    </div>
+
+	<!------footer start--------->
+	<footer>
+	<p>Vescito || 2022<br /><br /><span>This website is based on a changed-up template by Tahmid Ahmed</span></p>
+	</footer>
+</body>
 </html>
